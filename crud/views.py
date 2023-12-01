@@ -26,5 +26,5 @@ class ProductDeleteView(DeleteView):
 
 class ProductDetailView(DetailView):
     model = Product
-    template_name = 'crud/Product_detail.html'
+    template_name = 'crud/product_detail.html'
     context_object_name = "product"
